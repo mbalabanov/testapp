@@ -11,6 +11,7 @@
     "dev:ssr": "ng run testapp:serve-ssr",
     "serve:ssr": "node dist/testapp/server/main.js",
     "build:ssr": "ng build --prod && ng run testapp:server:production",
+    "prerender": "ng run testapp:prerender",
     "start:heroku": "node dist/testapp/server",
     "postinstall":"npm run build:ssr"
   },
